@@ -1,8 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = "$"; // ضع البريفكس الخاص بك هنا
-const token = "NTU3MTgxMzg5MTAwMDIzODM5.XSn5gg.SN4Lw2cUdlk54M3brzz2g60eo4o"; // هنا تضع التوكن الخاص بك
-
 
 
 console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
