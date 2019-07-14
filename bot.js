@@ -142,4 +142,4 @@ client.on('message' , message => {//bcrole
 });
 
 
-client.login('NTU3MTgxMzg5MTAwMDIzODM5.XSn5gg.SN4Lw2cUdlk54M3brzz2g60eo4o');
+client.login('NTk5OTcwMjMzNjI4ODg1MDEy.XSs8CQ.8rbJJuM0IrKqn5_TN2BGOrED4Ss');
