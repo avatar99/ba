@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = "$"; // ضع البريفكس الخاص بك هنا
+const prefix = "$"; // NTk5OTcwMjMzNjI4ODg1MDEy.XSs8CQ.8rbJJuM0IrKqn5_TN2BGOrED4Ss
 
 
 console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
