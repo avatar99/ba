@@ -45,7 +45,7 @@ client.on('message', message => {
 				.addField(`**${prefix}bc1 | رسالة جماعية لجميع الاعضاء**'` ,'**=-=-=-=-=-=-=-=-=-=-=**')
 				.addField(`**${prefix}bc2 | رسالة جماعية للاونلاين فقط**` ,'**=-=-=-=-=-=-=-=-=-=-=**')
 				.addField(`**${prefix}bc3 | رسالة جماعية للوفلاين فقط**` ,'**=-=-=-=-=-=-=-=-=-=-=**')
-				.addField(`**${prefix}bcrole | رسالة جماعية لرتبة معينه**` ,'**=-=-=-=-=-=-=-=-=-=-=**')
+				.addField(`**${prefix}bcrole | :pythor21: رسالة جماعية لرتبة معينه**` ,'**=-=-=-=-=-=-=-=-=-=-=**')
                 .addField('=-=- [ شكرا على استعمال البوت ] -=-= ' ,'╚[❖═════════════════════❖]╝')
                 .setFooter(`By Avatar`)
                 .setTimestamp()
@@ -115,7 +115,7 @@ client.on('message' , message => {//bcrole
     }
 
       if(args[0] == "@everyone") {
-        message.channel.send(`لقد تم ارسال هذه الرسالة الى ${message.guild.memberCount} اعضاء`);
+        message.channel.send(`لقد تم ارسال هذه الرسالة الى ${message.guild.memberCount} :pythor21: اعضاء`);
         message.guild.members.forEach(mi => {
           mi.send(
           "الرسالة :" + "\n" +
